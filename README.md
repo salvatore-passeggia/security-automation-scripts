@@ -118,5 +118,5 @@ Commitment to privacy through simulated data usage
 
 Career focus with clear objectives and target regions
 
-Last Updated: 2026-02-05
+*Last Updated: 2024-02-06*
 Maintained by: Salvatore Passeggia
