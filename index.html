@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salvatore Passeggia - Security Engineering Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', system-ui, sans-serif;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #e2e8f0;
+            line-height: 1.6;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 60px;
+            padding: 50px 30px;
+            background: rgba(30, 41, 59, 0.7);
+            border-radius: 20px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+        }
+        
+        h1 {
+            font-size: 3.2rem;
+            background: linear-gradient(45deg, #3b82f6, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 15px;
+        }
+        
+        .tagline {
+            font-size: 1.4rem;
+            color: #94a3b8;
+            margin-bottom: 25px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .contact-bar {
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+            flex-wrap: wrap;
+            margin-top: 30px;
+        }
+        
+        .contact-btn {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: white;
+            text-decoration: none;
+            padding: 12px 25px;
+            background: rgba(59, 130, 246, 0.2);
+            border-radius: 50px;
+            border: 1px solid rgba(59, 130, 246, 0.4);
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+        
+        .contact-btn:hover {
+            background: rgba(59, 130, 246, 0.3);
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(59, 130, 246, 0.2);
+        }
+        
+        .section {
+            background: rgba(30, 41, 59, 0.7);
+            border-radius: 15px;
+            padding: 40px;
+            margin-bottom: 40px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        h2 {
+            color: #3b82f6;
+            margin-bottom: 25px;
+            font-size: 2rem;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 20px;
+        }
+        
+        .skill-card {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 25px;
+            border-radius: 12px;
+            border-left: 4px solid #8b5cf6;
+        }
+        
+        .skill-card h3 {
+            color: #94a3b8;
+            margin-bottom: 15px;
+            font-size: 1.3rem;
+        }
+        
+        .skill-list {
+            list-style: none;
+        }
+        
+        .skill-list li {
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .skill-list li::before {
+            content: "▸";
+            color: #3b82f6;
+        }
+        
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 20px;
+        }
+        
+        .project-card {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            padding: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s ease;
+        }
+        
+        .project-card:hover {
+            transform: translateY(-5px);
+            border-color: #3b82f6;
+            box-shadow: 0 10px 30px rgba(59, 130, 246, 0.2);
+        }
+        
+        .project-card h3 {
+            color: #3b82f6;
+            margin-bottom: 15px;
+            font-size: 1.5rem;
+        }
+        
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: linear-gradient(45deg, #3b82f6, #8b5cf6);
+            color: white;
+            padding: 12px 25px;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(59, 130, 246, 0.3);
+        }
+        
+        .btn-outline {
+            background: transparent;
+            border: 2px solid #3b82f6;
+            color: #3b82f6;
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #94a3b8;
+        }
+        
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+            
+            .container {
+                padding: 20px 10px;
+            }
+            
+            .section {
+                padding: 25px;
+            }
+            
+            .contact-bar {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-shield-alt"></i> Security Engineering Portfolio</h1>
+            <p class="tagline">Senior Security Engineer | 15+ Years Banking Sector Experience | Specializing in Cisco Umbrella, Trellix, Skyhigh CASB</p>
+            <p>Enterprise security stack management, threat analysis, and automation with banking sector expertise</p>
+            
+            <div class="contact-bar">
+                <a href="https://github.com/salvatore-passeggia" class="contact-btn" target="_blank">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub Portfolio</span>
+                </a>
+                <a href="https://github.com/salvatore-passeggia/security-automation-scripts" class="contact-btn" target="_blank">
+                    <i class="fas fa-code"></i>
+                    <span>Repository</span>
+                </a>
+                <span class="contact-btn">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Target: Ticino, Switzerland</span>
+                </span>
+            </div>
+        </header>
+
+        <section class="section">
+            <h2><i class="fas fa-user-tie"></i> Professional Profile</h2>
+            <p>With over 15 years of hands-on experience in banking sector security operations, I specialize in managing critical security infrastructure, implementing robust security policies, and developing automation solutions that enhance security posture while maintaining regulatory compliance.</p>
+            
+            <div style="margin-top: 25px; display: flex; gap: 15px; flex-wrap: wrap;">
+                <a href="#skills" class="btn">
+                    <i class="fas fa-tools"></i> Technical Skills
+                </a>
+                <a href="#projects" class="btn btn-outline">
+                    <i class="fas fa-project-diagram"></i> View Projects
+                </a>
+            </div>
+        </section>
+
+        <section class="section" id="skills">
+            <h2><i class="fas fa-cogs"></i> Technical Expertise</h2>
+            
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3><i class="fas fa-shield-alt"></i> Security Platforms</h3>
+                    <ul class="skill-list">
+                        <li>Cisco Umbrella</li>
+                        <li>Trellix (McAfee) EDR</li>
+                        <li>Skyhigh CASB</li>
+                        <li>Enterprise Proxy Solutions</li>
+                        <li>CA Siteminder</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-card">
+                    <h3><i class="fas fa-code"></i> Automation & Development</h3>
+                    <ul class="skill-list">
+                        <li>Python Security Scripting</li>
+                        <li>PowerShell Automation</li>
+                        <li>Bash/Shell Scripting</li>
+                        <li>HTML/CSS/JavaScript</li>
+                        <li>Custom Tool Development</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-card">
+                    <h3><i class="fas fa-network-wired"></i> Security Operations</h3>
+                    <ul class="skill-list">
+                        <li>Malware Analysis & Blocking</li>
+                        <li>Security Policy Engineering</li>
+                        <li>Incident Response</li>
+                        <li>Proxy Infrastructure Management</li>
+                        <li>Team Leadership</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="projects">
+            <h2><i class="fas fa-laptop-code"></i> Portfolio Projects</h2>
+            <p>Demonstration projects using simulated data for privacy and security compliance.</p>
+            
+            <div class="projects">
+                <div class="project-card">
+                    <h3><i class="fab fa-python"></i> Security Log Analyzer</h3>
+                    <p>Python-based log analysis tool demonstrating threat detection capabilities using simulated security logs. Shows parsing, analysis, and reporting skills.</p>
+                    <a href="https://github.com/salvatore-passeggia/security-automation-scripts/blob/main/scripts/log_analyzer_example.py" 
+                       class="btn" target="_blank">
+                        <i class="fas fa-external-link-alt"></i> View Python Code
+                    </a>
+                </div>
+                
+                <div class="project-card">
+                    <h3><i class="fas fa-code-branch"></i> Security Automation Repository</h3>
+                    <p>Complete GitHub repository demonstrating professional project organization, documentation, and security automation concepts.</p>
+                    <a href="https://github.com/salvatore-passeggia/security-automation-scripts" 
+                       class="btn" target="_blank">
+                        <i class="fab fa-github"></i> Explore Repository
+                    </a>
+                </div>
+                
+                <div class="project-card">
+                    <h3><i class="fab fa-microsoft"></i> PowerShell Automation</h3>
+                    <p>PowerShell scripts for security policy management and Windows security automation (coming soon).</p>
+                    <button class="btn btn-outline" disabled>
+                        <i class="fas fa-clock"></i> In Development
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2><i class="fas fa-bullseye"></i> Career Objectives</h2>
+            <p>Seeking senior security engineering roles in Switzerland (particularly Ticino region) where I can leverage my extensive banking sector experience and technical expertise to contribute to organizational security while continuing professional development in an international environment.</p>
+            
+            <div style="margin-top: 25px;">
+                <a href="https://github.com/salvatore-passeggia/security-automation-scripts" 
+                   class="btn" target="_blank">
+                    <i class="fab fa-github"></i> Full GitHub Portfolio
+                </a>
+            </div>
+        </section>
+
+        <footer>
+            <p>© 2026 Security Engineering Portfolio. All rights reserved.</p>
+            <p style="margin-top: 15px; font-size: 0.9rem; color: #64748b;">
+                <i class="fas fa-exclamation-triangle"></i> 
+                <em>All projects use simulated data for demonstration. No real production data is included.</em>
+            </p>
+            <p style="margin-top: 10px; font-size: 0.8rem;">
+                Last Updated: February 2026 | Maintained by Salvatore Passeggia
+            </p>
+        </footer>
+    </div>
+
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                if(this.getAttribute('href') === '#') return;
+                
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                
+                if(targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Update current year in footer
+        document.addEventListener('DOMContentLoaded', function() {
+            const yearElement = document.querySelector('footer p:first-child');
+            if(yearElement) {
+                yearElement.innerHTML = yearElement.innerHTML.replace('2026', new Date().getFullYear());
+            }
+        });
+    </script>
+</body>
+</html>
