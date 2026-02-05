@@ -112,8 +112,8 @@ This repository demonstrates:
 
 
 ---
-Last Updated: 2026-02-06
-Maintained by: Salvatore Passeggia
-
+*Last Updated: 2026-02-06*  
+*Maintained by: Salvatore Passeggia*
+---
 
 
