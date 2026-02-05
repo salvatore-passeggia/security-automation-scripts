@@ -50,73 +50,70 @@ security-automation-scripts/
 ├── LICENSE # MIT License
 └── requirements.txt # Python dependencies
 
-text
-
 ## 🚀 Getting Started
 
 ### **Clone the Repository**
 ```bash
 git clone https://github.com/salvatore-passeggia/security-automation-scripts.git
 cd security-automation-scripts
-Run Example Script
-bash
+
 python scripts/log_analyzer_example.py
+
 View Online Portfolio
 Visit: https://salvatore-passeggia.github.io/security-automation-scripts
 
-📂 Project Examples
-1. Security Log Analyzer
-scripts/log_analyzer_example.py - Demonstrates log parsing, threat detection, and analysis capabilities using simulated security log data.
 
-2. GitHub Pages Portfolio
-index.html - Professional online portfolio showcasing skills, experience, and career objectives.
+## 📂 Project Examples
 
-More Projects Coming Soon...
-PowerShell security automation modules
+### **1. Security Log Analyzer**
+`scripts/log_analyzer_example.py` - Demonstrates log parsing, threat detection, and analysis capabilities using simulated security log data.
 
-Custom security dashboard
+### **2. GitHub Pages Portfolio**
+`index.html` - Professional online portfolio showcasing skills, experience, and career objectives.
 
-Policy management automation tools
+### **More Projects Coming Soon...**
+- PowerShell security automation modules
+- Custom security dashboard
+- Policy management automation tools
 
-📫 Contact & Information
-GitHub: github.com/salvatore-passeggia
 
-Location: Italy 🇮🇹
+## 📫 Contact & Information
 
-Target Region: Switzerland (Ticino) 🇨🇭
+- **GitHub:** [github.com/salvatore-passeggia](https://github.com/salvatore-passeggia)
+- **Location:** Italy 🇮🇹
+- **Target Region:** Switzerland (Ticino) 🇨🇭
+- **Status:** Open to senior security engineering opportunities
+- **Experience:** 15+ years in banking sector security
 
-Status: Open to senior security engineering opportunities
 
-Experience: 15+ years in banking sector security
+## 🔒 Privacy & Security Notice
 
-🔒 Privacy & Security Notice
-⚠️ Important: All scripts and tools in this repository use simulated data and mock environments for demonstration purposes only. No real production data, credentials, or sensitive information from any organization is included.
+⚠️ **Important:** All scripts and tools in this repository use **simulated data** and **mock environments** for demonstration purposes only. No real production data, credentials, or sensitive information from any organization is included.
 
-📈 Professional Value Proposition
+
+## 📈 Professional Value Proposition
+
 My 15+ years in banking security provide:
+- **Deep regulatory compliance understanding** (GDPR, PCI DSS, banking regulations)
+- **Critical infrastructure protection** experience
+- **Incident response** in high-stakes environments
+- **Vendor management** and technical support coordination
+- **Custom tool development** to solve unique challenges
 
-Deep regulatory compliance understanding (GDPR, PCI DSS, banking regulations)
 
-Critical infrastructure protection experience
+## 🌟 Why This Portfolio?
 
-Incident response in high-stakes environments
-
-Vendor management and technical support coordination
-
-Custom tool development to solve unique challenges
-
-🌟 Why This Portfolio?
 This repository demonstrates:
+1. **Technical competence** through practical examples
+2. **Problem-solving approach** with custom automation
+3. **Professional presentation** via GitHub Pages
+4. **Commitment to privacy** through simulated data usage
+5. **Career focus** with clear objectives and target regions
 
-Technical competence through practical examples
 
-Problem-solving approach with custom automation
-
-Professional presentation via GitHub Pages
-
-Commitment to privacy through simulated data usage
-
-Career focus with clear objectives and target regions
-
-*Last Updated: 2026-02-06
+---
+Last Updated: 2026-02-06
 Maintained by: Salvatore Passeggia
+
+
+
