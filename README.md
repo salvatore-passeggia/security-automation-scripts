@@ -112,7 +112,7 @@ This repository demonstrates:
 
 
 ---
-*Last Updated: 2026-02-06*  
+*Last Updated: February 2026*  
 *Maintained by: Salvatore Passeggia*
 ---
 
