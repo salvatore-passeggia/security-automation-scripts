@@ -1,8 +1,12 @@
 # 🔒 Security Automation Portfolio
 
-![GitHub](https://img.shields.io/badge/GitHub-Portfolio-blue)
-![Python](https://img.shields.io/badge/Python-3.8+-green)
-![Security](https://img.shields.io/badge/Security-Professional-red)
+![Python](https://img.shields.io/badge/Python-Expert-green?logo=python&logoColor=white)
+![Html](https://img.shields.io/badge/HTML-Expert-cyan?logo=html5&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-Expert-blue?logo=WindowsPowerShell&logoColor=white)
+![Security](https://img.shields.io/badge/Security-Professional-red?logo=security&logoColor=white)
+![Proxy](https://img.shields.io/badge/Proxy-Enterprise-cyan?logo=cloudflare&logoColor=white)
+![Cisco](https://img.shields.io/badge/Cisco_Umbrella-Expert-0066CC?logo=cisco&logoColor=white)
+![Trellix](https://img.shields.io/badge/Skyhigh/Trellix/McAfee-Expert-FF6B00?logo=trello&logoColor=white)
 ![Experience](https://img.shields.io/badge/Experience-15%2B_Years-yellow)
 
 ## 👤 About Me
