@@ -42,7 +42,7 @@ With extensive hands-on experience in **financial sector security**, I manage cr
 
 ## 🎯 Career Objective
 
-Seeking **senior security engineering roles in Switzerland** (particularly Ticino region) where I can leverage my extensive banking sector experience to contribute to organizational security while embracing new challenges in an international environment.
+Seeking **senior security engineering roles in Italy/Europe where I can leverage my extensive banking sector experience to contribute to organizational security while embracing new challenges in an international environment.
 
 ## 📁 Repository Structure
 security-automation-scripts/
@@ -85,7 +85,7 @@ Visit: https://salvatore-passeggia.github.io/security-automation-scripts
 
 - **GitHub:** [github.com/salvatore-passeggia](https://github.com/salvatore-passeggia)
 - **Location:** Italy 🇮🇹
-- **Target Region:** Switzerland (Ticino) 🇨🇭
+- **Target Region:** Italy/Europe
 - **Status:** Open to senior security engineering opportunities
 - **Experience:** 15+ years in banking sector security
 
