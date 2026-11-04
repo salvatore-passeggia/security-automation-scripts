@@ -1,118 +1,55 @@
-# 🔒 Security Automation Portfolio
+# 🔒 Salvatore Passeggia - Security & Development Portfolio
 
-![Python](https://img.shields.io/badge/Python-Expert-green?logo=python&logoColor=white)
-![Html](https://img.shields.io/badge/HTML-Expert-cyan?logo=html5&logoColor=white)
-![PowerShell](https://img.shields.io/badge/PowerShell-Expert-blue?logo=WindowsPowerShell&logoColor=white)
-![Security](https://img.shields.io/badge/Security-Professional-red?logo=security&logoColor=white)
-![Proxy](https://img.shields.io/badge/Proxy-Enterprise-cyan?logo=cloudflare&logoColor=white)
-![Cisco](https://img.shields.io/badge/Cisco_Umbrella-Expert-0066CC?logo=cisco&logoColor=white)
-![Trellix](https://img.shields.io/badge/Skyhigh/Trellix/McAfee-Expert-FF6B00?logo=trello&logoColor=white)
-![Experience](https://img.shields.io/badge/Experience-15%2B_Years-yellow)
+👋 Hi there! I'm a **Senior Cybersecurity Specialist** and **Android Developer** with over 15 years of experience in the banking sector. I help international clients build secure applications and automate complex security workflows.
 
-## 👤 About Me
+📍 **Location:** Italy (Available for Remote Work Worldwide)  
+📧 **Email:** passeggias@gmail.com  
+💻 **GitHub:** [github.com/salvatore-passeggia](https://github.com/salvatore-passeggia)
 
-**Senior Security Engineer** with **15+ years** of experience in **banking sector security operations**. Specialized in enterprise security stack management, threat analysis, and automation with a focus on maintaining compliance and operational excellence in regulated environments.
+---
 
-## 🛡️ Professional Profile
+## 🛠️ Technical Expertise
 
-With extensive hands-on experience in **financial sector security**, I manage critical security infrastructure including **Cisco Umbrella, Trellix (McAfee) EDR, Skyhigh CASB**, and enterprise proxy solutions. My expertise spans from **malware analysis** and **global threat blocking** to developing **custom automation tools** that enhance security posture and operational efficiency.
+<div align="center">
+  <img src="https://img.shields.io/badge/Python-Expert-green?logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Java-Expert-orange?logo=openjdk&logoColor=white" alt="Java">
+  <img src="https://img.shields.io/badge/Android_Development-Professional-3DDC84?logo=android&logoColor=white" alt="Android">
+  <img src="https://img.shields.io/badge/HTML-Expert-cyan?logo=html5&logoColor=white" alt="HTML">
+  <img src="https://img.shields.io/badge/PowerShell-Expert-blue?logo=WindowsPowerShell&logoColor=white" alt="PowerShell">
+  <br>
+  <img src="https://img.shields.io/badge/Security-Professional-red?logo=security&logoColor=white" alt="Security">
+  <img src="https://img.shields.io/badge/Cisco_Umbrella-Expert-0066CC?logo=cisco&logoColor=white" alt="Cisco Umbrella">
+  <img src="https://img.shields.io/badge/Trellix/McAfee-Expert-FF6B00?logo=trello&logoColor=white" alt="Trellix">
+  <img src="https://img.shields.io/badge/Experience-15%2B_Years-yellow" alt="Experience">
+</div>
 
-## 🔧 Technical Expertise
+---
 
-### **Security Platforms & Tools**
-- **Cisco Umbrella** - DNS security & policy enforcement
-- **Trellix (McAfee) EDR** - Endpoint Detection & Response
-- **Skyhigh CASB** - Cloud Access Security Broker
-- **Enterprise Proxy Solutions** - Web security & filtering
-- **CA Siteminder** - Single Sign-On & authentication
+## 📂 Featured Projects
 
-### **Automation & Development**
-- **Python** - Security scripting & tool development
-- **PowerShell** - Windows automation & administration
-- **Bash/Shell Scripting** - Linux environment automation
-- **HTML/CSS/JavaScript** - Custom dashboard development
-- **Batch Scripting** - System automation
+### 📱 [Android Security Demo](https://github.com/salvatore-passeggia/android-security-demo)
+A showcase of secure mobile development, featuring encrypted data storage and secure API communication.
 
-### **Operational Skills**
-- Malware analysis & global blocking
-- Security policy engineering & enforcement
-- Incident response & forensic analysis
-- Proxy infrastructure management
-- Team leadership & cross-department coordination
+### 🐍 [Security Automation Scripts](https://github.com/salvatore-passeggia/security-automation-scripts)
+Python and PowerShell tools for log analysis, threat detection, and system hardening.
 
-## 🎯 Career Objective
+### 🌐 [Professional Portfolio](https://salvatore-passeggia.github.io/security-automation-scripts)
+My online portfolio highlighting certifications and professional journey.
 
-Seeking **senior security engineering roles in Italy/Europe where I can leverage my extensive banking sector experience to contribute to organizational security while embracing new challenges in an international environment.
+---
 
-## 📁 Repository Structure
-security-automation-scripts/
-├── scripts/
-│ └── log_analyzer_example.py # Log analysis with simulated data
-├── index.html # GitHub Pages portfolio
-├── README.md # This file
-├── .gitignore # Python ignore patterns
-├── LICENSE # MIT License
-└── requirements.txt # Python dependencies
+## 🎯 Career Focus
+I am currently open to **freelance projects** and **remote contracts** focusing on:
+*   Secure Android Application Development
+*   Security Automation & Tooling
+*   Web Gateway & Proxy Configuration
+*   Incident Response & Threat Analysis
 
-## 🚀 Getting Started
+---
 
-### **Clone the Repository**
-```bash
-git clone https://github.com/salvatore-passeggia/security-automation-scripts.git
-cd security-automation-scripts
-
-python scripts/log_analyzer_example.py
-
-View Online Portfolio
-Visit: https://salvatore-passeggia.github.io/security-automation-scripts
-
-
-## 📂 Project Examples
-
-### **1. Security Log Analyzer**
-`scripts/log_analyzer_example.py` - Demonstrates log parsing, threat detection, and analysis capabilities using simulated security log data.
-
-### **2. GitHub Pages Portfolio**
-`index.html` - Professional online portfolio showcasing skills, experience, and career objectives.
-
-### **More Projects Coming Soon...**
-- PowerShell security automation modules
-- Custom security dashboard
-- Policy management automation tools
-
-
-## 📫 Contact & Information
-
-- **GitHub:** [github.com/salvatore-passeggia](https://github.com/salvatore-passeggia)
-- **Location:** Italy 🇮🇹
-- **Target Region:** Italy/Europe
-- **Status:** Open to senior security engineering opportunities
-- **Experience:** 15+ years in banking sector security
-
-
-## 🔒 Privacy & Security Notice
-
-⚠️ **Important:** All scripts and tools in this repository use **simulated data** and **mock environments** for demonstration purposes only. No real production data, credentials, or sensitive information from any organization is included.
-
-
-## 📈 Professional Value Proposition
-
-My 15+ years in banking security provide:
-- **Deep regulatory compliance understanding** (GDPR, PCI DSS, banking regulations)
-- **Critical infrastructure protection** experience
-- **Incident response** in high-stakes environments
-- **Vendor management** and technical support coordination
-- **Custom tool development** to solve unique challenges
-
-
-## 🌟 Why This Portfolio?
-
-This repository demonstrates:
-1. **Technical competence** through practical examples
-2. **Problem-solving approach** with custom automation
-3. **Professional presentation** via GitHub Pages
-4. **Commitment to privacy** through simulated data usage
-5. **Career focus** with clear objectives and target regions
+## 📫 Contact
+Feel free to reach out for collaborations or freelance opportunities!
+[![Email Me](https://img.shields.io/badge/Email-passeggias@gmail.com-blue?style=for-the-badge&logo=gmail)](mailto:passeggias@gmail.com)
 
 
 ---
