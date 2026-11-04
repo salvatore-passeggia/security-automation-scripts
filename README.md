@@ -49,11 +49,12 @@ I am currently open to **freelance projects** and **remote contracts** focusing 
 
 ## 📫 Contact
 Feel free to reach out for collaborations or freelance opportunities!
+
 [![Email Me](https://img.shields.io/badge/Email-passeggias@gmail.com-blue?style=for-the-badge&logo=gmail)](mailto:passeggias@gmail.com)
 
 
 ---
-*Last Updated: February 2026*  
+*Last Updated: November 2026*  
 *Maintained by: Salvatore Passeggia*
 ---
 
