@@ -1,6 +1,6 @@
 # 🔒 Salvatore Passeggia - Security & Development Portfolio
 
-👋 Hi there! I'm a **Senior Cybersecurity Specialist** and **Android Developer** with over 15 years of experience in the banking sector. I help international clients build secure applications and automate complex security workflows.
+👋 Hi there! I'm a **Senior Cybersecurity Specialist** and **Android Developer** with over 18 years of experience in the banking sector. I help international clients build secure applications and automate complex security workflows.
 
 📍 **Location:** Italy (Available for Remote Work Worldwide)  
 📧 **Email:** passeggias@gmail.com  
