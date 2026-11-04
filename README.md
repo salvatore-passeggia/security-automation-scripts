@@ -1,5 +1,9 @@
 # 🔒 Salvatore Passeggia - Security & Development Portfolio
 
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+
 👋 Hi there! I'm a **Senior Cybersecurity Specialist** and **Android Developer** with over 15 years of experience in the banking sector. I help international clients build secure applications and automate complex security workflows.
 
 📍 **Location:** Italy (Available for Remote Work Worldwide)  
