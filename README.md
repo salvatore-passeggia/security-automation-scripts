@@ -20,7 +20,7 @@
   <img src="https://img.shields.io/badge/Security-Professional-red?logo=security&logoColor=white" alt="Security">
   <img src="https://img.shields.io/badge/Cisco_Umbrella-Expert-0066CC?logo=cisco&logoColor=white" alt="Cisco Umbrella">
   <img src="https://img.shields.io/badge/Trellix/McAfee-Expert-FF6B00?logo=trello&logoColor=white" alt="Trellix">
-  <img src="https://img.shields.io/badge/Experience-15%2B_Years-yellow" alt="Experience">
+  <img src="https://img.shields.io/badge/Experience-18%2B_Years-yellow" alt="Experience">
 </div>
 
 ---
